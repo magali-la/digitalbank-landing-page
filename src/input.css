@@ -30,5 +30,12 @@ main {
 }
 
 nav li{
-    @apply p-0 m-0;
+    @apply p-0 m-0 text-gray600;
+}
+nav a{
+    @apply text-gray600 no-underline hover:text-cyan400 hover:underline font-medium text-lg;
+}
+
+button {
+    @apply w-fit h-fit py-3 px-9 bg-linear-to-tr from-cyan400 to-green500 !rounded-full;
 }
