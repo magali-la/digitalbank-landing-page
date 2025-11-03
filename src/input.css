@@ -26,7 +26,6 @@ html, body {
 main {
     width: 100%;
     height: 100%;
-    @apply bg-cyan400;
 }
 
 nav li{
@@ -38,4 +37,12 @@ nav a{
 
 button {
     @apply w-fit h-fit py-3 px-9 bg-linear-to-tr from-cyan400 to-green500 !rounded-full;
+}
+
+/* hero section background image */
+.hero-section {
+    background-image: url(/images/bg-intro-desktop.svg);
+    background-position-x: 250%;
+    background-position-y: -250px;
+    background-repeat: no-repeat;
 }
