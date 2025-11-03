@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@theme {
+    /* colors */
+    --color-blue950: hsl(233, 26%, 24%);
+    --color-green500: hsl(136, 64%, 51%);
+    --color-cyan400: hsl(192, 69%, 51%);
+
+    /* neutrals */
+    --color-gray600: hsl(233, 8%, 62%);
+    --color-gray100: hsl(220, 16%, 96%);
+    --color-gray50: hsl(0, 0%, 98%);
+    --color-whyte: hsl(0, 100%, 100%);
+
+    /* fonts */
+    --font-public: 'Public Sans', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    @apply bg-cyan400;
+}
+
+nav li{
+    @apply p-0 m-0;
+}
