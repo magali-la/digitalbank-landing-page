@@ -51,12 +51,6 @@ button {
     background-attachment: scroll;
 }
 
-@media (max-width: 768px){
-    .hero-section {
-        background-position-x:
-    }
-}
-
 /* footer */
 footer {
     @apply !bg-blue950;
