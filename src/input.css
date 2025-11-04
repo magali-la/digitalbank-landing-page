@@ -3,15 +3,15 @@
 
 @theme {
     /* colors */
-    --blue950: hsl(233, 26%, 24%);
-    --green500: hsl(136, 64%, 51%);
-    --cyan400: hsl(192, 69%, 51%);
+    --color-blue950: hsl(233, 26%, 24%);
+    --color-green500: hsl(136, 64%, 51%);
+    --color-cyan400: hsl(192, 69%, 51%);
 
     /* neutrals */
-    --gray600: hsl(233, 8%, 62%);
-    --gray100: hsl(220, 16%, 96%);
-    --gray50: hsl(0, 0%, 98%);
-    --whyte: hsl(0, 100%, 100%);
+    --color-gray600: hsl(233, 8%, 62%);
+    --color-gray100: hsl(220, 16%, 96%);
+    --color-gray50: hsl(0, 0%, 98%);
+    --color-whyte: hsl(0, 100%, 100%);
 
     /* fonts */
     --font-public: "Public Sans", sans-serif;
@@ -49,6 +49,11 @@ button {
     background-position-y: -250px;
     background-repeat: no-repeat;
     background-attachment: scroll;
+}
+
+/* footer */
+footer {
+    @apply !bg-blue950;
 }
 
 .icon-img {

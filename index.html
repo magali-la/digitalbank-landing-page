@@ -14,7 +14,7 @@
 <body>
   <header>
     <!-- nav bar -->
-    <nav class="bg-white flex flex-row justify-evenly items-center h-[10vh] font-public fixed top-0 right-0 left-0 z-1 w-full">
+    <nav class="bg-white flex flex-row flex-wrap justify-evenly items-center gap-4 pt-[1rem] pb-[1rem] h-fit font-public fixed top-0 right-0 left-0 z-1 w-full">
       <!-- nav logo  -->
       <img class="w-48" src="./images/logo-dark.svg" alt="digital bank logo">
       <!-- nav links -->
@@ -116,15 +116,20 @@
       </div>
     </section>
   </main>
-  <footer>
-    About Us
-    Contact
-    Blog
-    Careers
-    Support
-    Privacy Policy
-    Request Invite
-    © Digitalbank. All Rights Reserved
+  <footer class="h-fit pt-[1rem] pb-[1rem] !bg-blue950 !font-medium !text-white flex flex-col md:flex-row justify-evenly items-center" style="background-color: hsl(233, 26%, 24%);">
+    <img class="w-40" src="./images/logo-light.svg" alt="light colored Digitalbank logo and text">
+    <ul class="grid grid-cols-1 sm:grid-cols-2">
+      <li><a class="text-white" href="#">About Us</a></li>
+      <li><a class="text-white" href="#">Contact</a></li>
+      <li><a class="text-white" href="#">Blog</a></li>
+      <li><a class="text-white" href="#">Careers</a></li>
+      <li><a class="text-white" href="#">Support</a></li>
+      <li><a class="text-white" href="#">Privacy Policy</a></li>
+    </ul>
+    <div class="flex-col gap-4 items-center">
+      <button>Request Invite</button>
+      <p class="text-white">© Digitalbank. All Rights Reserved</p>
+    </div>
   </footer>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
