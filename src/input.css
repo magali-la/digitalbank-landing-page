@@ -44,7 +44,7 @@ button {
 
 /* hero section background image */
 .hero-section {
-    background-image: url(/images/bg-intro-desktop.svg);
+    background-image: url(../images/bg-intro-desktop.svg);
     background-position-x: 600px;
     background-position-y: -250px;
     background-repeat: no-repeat;
